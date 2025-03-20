@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap');
+
+:roof {
+  /* Colour */
+  --Primary: #08a0ff;
+  --Secondary: #ffffff;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+  
+  .html {
+    scroll-behavior: smooth;
+  }
+
+  .logo {
+    font-family: 'Varela Round', sans-serif;
+    color: #08a0ff;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  .navbar {
+    height: 50px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    font-size: 17px
+  }
+
+  .home {
+    width: 100vw;
+  }
+
+  .carousel {
+    height: calc(100vh - 50px);
+  }
+
+  .carousel img {
+    height: calc(100vh - 50px);
+    width: auto;
+    float: right;
+  }
+
